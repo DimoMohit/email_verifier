@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('sourcesanspro-regular.eot');
+    src: url('sourcesanspro-regular.eot') format('embedded-opentype'),
+         url('sourcesanspro-regular.woff') format('woff'),
+         url('sourcesanspro-regular.ttf') format('truetype'),
+         url('sourcesanspro-regular.svg#SourceSansProRegular') format('svg');
+}

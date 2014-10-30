@@ -1,0 +1,29 @@
+{
+  "Unknown Test Framework": {
+    "coverage": {
+      "/var/www/emails/emailsender/app/models/email.rb": [
+        1,
+        1,
+        null
+      ],
+      "/var/www/emails/emailsender/app/models/template.rb": [
+        1,
+        null
+      ],
+      "/var/www/emails/emailsender/app/models/account.rb": [
+        1,
+        1,
+        null
+      ],
+      "/var/www/emails/emailsender/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/var/www/emails/emailsender/app/helpers/email_helper.rb": [
+        1,
+        null
+      ]
+    },
+    "timestamp": 1393328209
+  }
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'AachenBTBold';
+    src: url('aachenb.eot');
+    src: url('aachenb.eot') format('embedded-opentype'),
+         url('aachenb.woff') format('woff'),
+         url('aachenb.ttf') format('truetype'),
+         url('aachenb.svg#AachenBTBold') format('svg');
+}

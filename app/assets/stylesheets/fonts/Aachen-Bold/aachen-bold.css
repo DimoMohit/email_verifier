@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'AachenBoldRegular';
+    src: url('aachen-bold.eot');
+    src: url('aachen-bold.eot') format('embedded-opentype'),
+         url('aachen-bold.woff') format('woff'),
+         url('aachen-bold.ttf') format('truetype'),
+         url('aachen-bold.svg#AachenBoldRegular') format('svg');
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'HelveticaCYRegular';
+    src: url('helvetica_cy.eot');
+    src: url('helvetica_cy.eot') format('embedded-opentype'),
+         url('helvetica_cy.woff') format('woff'),
+         url('helvetica_cy.ttf') format('truetype'),
+         url('helvetica_cy.svg#HelveticaCYRegular') format('svg');
+}

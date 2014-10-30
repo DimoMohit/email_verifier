@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'FreeSansMedium';
+    src: url('freesans.eot');
+    src: url('freesans.eot') format('embedded-opentype'),
+         url('freesans.woff') format('woff'),
+         url('freesans.ttf') format('truetype'),
+         url('freesans.svg#FreeSansMedium') format('svg');
+}

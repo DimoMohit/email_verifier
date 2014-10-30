@@ -1,0 +1,11 @@
+@font-face {
+	font-family: '18881HelveticaCdLt';
+	src: url('./18881HelveticaCdLt.eot');
+	src: local('18881HelveticaCdLt'), url('./18881HelveticaCdLt.woff') format('woff'), url('./18881HelveticaCdLt.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_7692">Text with this font applied</p> */
+.fontsforweb_fontid_7692 {
+	font-family: '18881HelveticaCdLt' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
