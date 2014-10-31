@@ -3,10 +3,10 @@ class EmailController < ApplicationController
     before_filter :authenticate_user!
 	def index
 		@host_url="http://localhost:4000"
-		@account_lists=AccountList.select("id").all.to_a
+		@account_lists=AccountList.select("id")
 		@accounts=Account.all
 		@state=Account.select("state").group(:state)
-		@age=Account.select("age").order(:age).group(:age)
+		@age=Account.select("age").order(:age)
 		@salary=Account.select("salary").order("length(salary)").group(:salary)
 		@gender=Account.select("gender").group(:gender)
 		@f = current_user.email
