@@ -123,15 +123,15 @@ class EmailController < ApplicationController
 		@state=params[:state]
 		if @state.length >1
 			if @gender.length >0
-			  @result=Account.where("SALARY >= ? AND SALARY <= ? AND AGE >= ? AND AGE <= ? AND GENDER=? AND STATE=?",@salary_from,@salary_to,@age_from,@age_to,@gender,@state).all		
+			  @result=Account.where("SALARY >= ? AND SALARY <= ? AND AGE >= ? AND AGE <= ? AND GENDER=? AND STATE=?",@salary_from,@salary_to,@age_from,@age_to,@gender,@state)		
 			else
-              @result=Account.where("SALARY >= ? AND SALARY <= ? AND AGE >= ? AND AGE <= ? AND STATE=?",@salary_from,@salary_to,@age_from,@age_to,@state).all
+              @result=Account.where("SALARY >= ? AND SALARY <= ? AND AGE >= ? AND AGE <= ? AND STATE=?",@salary_from,@salary_to,@age_from,@age_to,@state)
 			end
 		else
 			if @gender.length >0
-			  @result=Account.where("SALARY >= ? AND SALARY <= ? AND AGE >= ? AND AGE <= ? AND GENDER=?",@salary_from,@salary_to,@age_from,@age_to,@gender).all	
+			  @result=Account.where("SALARY >= ? AND SALARY <= ? AND AGE >= ? AND AGE <= ? AND GENDER=?",@salary_from,@salary_to,@age_from,@age_to,@gender)	
 			else
-              @result=Account.where("SALARY >= ? AND SALARY <= ? AND AGE >= ? AND AGE <= ?",@salary_from,@salary_to,@age_from,@age_to).all
+              @result=Account.where("SALARY >= ? AND SALARY <= ? AND AGE >= ? AND AGE <= ?",@salary_from,@salary_to,@age_from,@age_to)
 			end 
 		end
 		render :json => @result
